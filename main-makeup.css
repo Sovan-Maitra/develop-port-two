@@ -54,18 +54,37 @@ h1 {
 }
 .Experions-padding{
     padding: 50px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .experiance-div{
     margin-left: 5px;
     margin-right: 20px;
-    box-shadow: 10px 10px 40px rgb(53, 79, 93);
-    padding: 10px 15px;
-    border-left: 6px solid red;
     border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(53, 79, 93);
+    padding: 10px 15px; 
     
 }
 .experians-style{
     text-align: center;
     
+}
+#border-style-one{
+    border-left: 7px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(rgb(6, 237, 21), tomato);
+    border-image-slice: 1;
+
+
+}
+#border-style-two{
+    border-left: 7px solid;
+    border-radius: 7px;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
 
